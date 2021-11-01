@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #dddddd;
+    color: rgb(255, 255, 255);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    font-size: 18px;
+    background-color: #000000;
+    border-top: 0.2em solid rgb(255, 255, 255);
+    border-bottom: 0.3em solid rgb(255, 255, 255);
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}  
+
+.menu li{
+    list-style: none;
+    padding: 0.6em;
+    border-bottom: 0.1em solid white;
+    border-top: 0.1em solid white;
+    border-radius: 0.5em;
+}
+
+.menu li:hover{
+    border-bottom: 0.1em solid white;
+    border-top: 0.1em solid white;
+    background-color: rgb(65, 65, 65);
+    transition: ease-in 0.5s;
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.imagenCasino{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2em;
+}
+
+.imagenCasino img{
+    width: 100%;
+    height: 35em;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    border: 0.3em solid grey;
+    background-color: black;
+    margin-top: 0.2em;
+}
+
+.contenedor h2{
+    padding: 1em;
+}
+
+.contenedorGrande{
+    padding: 3.5em;
+}
+.contenedorGrande p{
+    border: 0.2em solid grey;
+    padding: 3em;
+    background-color: black;
+    border-radius: 0.8em;
+    box-shadow: 0 0 8px black;
+}
+
+.contenedorGrande p:hover{
+    background-color: white;
+    border: 0.2em solid black;
+    color: black;
+    transition: ease-in 0.6s;
+}
+
+input[name="slider-select-element"] {
+    display: none;
+}
+
+#slider-arrows {
+    margin: -10% auto 0 auto;
+    width: 80%;
+}
+
+#slider-box {
+    -moz-animation: autoSlider 15s infinite linear;
+    -o-animation: autoSlider 15s infinite linear;
+    -webkit-animation: autoSlider 15s infinite linear;
+    animation: autoSlider 15s infinite linear;
+
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+
+    height: 100%;
+    width: 300%;
+}
+
+#slider-container {
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 80%;
+}
+
+.element-blue,
+.element-green,
+.element-red {
+    min-height: 400px;
+    max-height: 100%;
+    width: 100%;
+}
+
+.slider-element {
+    float: left;
+    width: 33.333%;
+}
+
+@-moz-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+.contengoTodoCarrousel #slider-container{
+    padding: 1em;
+    background-color: black;
+    margin-top: 0.6em;
+}
+
+.contenedorImagenesChiquitas{
+    margin-top: 4em;
+    padding: 4em;
+}
+
+
+.contenedorImagenesChiquitas p{
+    text-align: center;
+}
+
+.contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.2em solid grey;
+    border-radius: 0.6em;
+    box-shadow: 0 0 8px black;
+    background-color: black;
+    padding: 1.7em;
+}
+
+.contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas p{
+    border: 0.01em solid white;
+    border-radius: 0.8em;
+    padding: 0.15em;
+}
+
+.contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas p:hover{
+    border: 0.01em solid grey;
+    color: black;
+    background-color: white;
+    border-radius: 0.8em;
+    padding: 0.15em;
+    transition: ease-in 0.5s;
+}
+
+.contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas:hover{
+    transition: ease-in 0.5s;
+    box-shadow: 0 0 14px black;
+
+}
