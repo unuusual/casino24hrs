@@ -1,3 +1,29 @@
+@font-face{
+    font-family: "TrebuchetMS";
+    src: url(fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src: url(fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url(fonts/websymbols-regular-webfont.eot);
+    src: url(fonts/websymbols-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/websymbols-regular-webfont.woff) format('woff'),
+         url(fonts/websymbols-regular-webfont.ttf) format('truetype'),
+         url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -73,7 +99,14 @@ body{
     justify-content: center;
     border: 0.3em solid grey;
     background-color: black;
-    margin-top: 0.2em;
+    margin-bottom: 0.7em;
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 2em;
+    border-radius: 2em;
+    padding: 1em;
 }
 
 .contenedor h2{
@@ -89,6 +122,11 @@ body{
     background-color: black;
     border-radius: 0.8em;
     box-shadow: 0 0 8px black;
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 80%;
 }
 
 .contenedorGrande p:hover{
@@ -251,12 +289,13 @@ input[name="slider-select-element"] {
 
 .contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas{
     display: flex;
-    justify-content: space-evenly;
-    border: 0.2em solid grey;
-    border-radius: 0.6em;
-    box-shadow: 0 0 8px black;
-    background-color: black;
+    justify-content: center;
     padding: 1.7em;
+}
+
+.contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas img{
+    width: 50px;
+    height: 52px;
 }
 
 .contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas p{
@@ -289,15 +328,49 @@ input[name="slider-select-element"] {
     padding: 1.4em;
 }
 
+
+.aside-box .contendoAsideFooter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.aside-box .twitter{
+    display: flex;
+    justify-content: center;
+}
+
+.aside-box img{
+    width: 50px;
+    height: 50px;
+}
+
+.contengoImagenTodoDePremios .contengoTresImagenesDePremios{
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+    margin-top: 2em;
+}
+
+.contengoImagenTodoDePremios .contengoTresImagenesDePremios img{
+    width: 23em;
+    height: 28em;
+    border: 2px solid black;
+}
+
 footer{
     background-color: #000000;
+    border-top: 0.2em solid grey;
 }
 
 footer .contenedorFooter{
     display: flex;
     justify-content: space-evenly;
     padding-top: 2em;
-    border-top: 0.2em solid grey;
+
 }
 
 
@@ -305,6 +378,11 @@ footer .contenedorFooter .divisores{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.divisoresImg{
+    display: flex;
+    justify-content: center;
 }
 
 footer .divisoresLegales{
