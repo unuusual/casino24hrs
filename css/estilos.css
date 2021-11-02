@@ -269,5 +269,16 @@ input[name="slider-select-element"] {
 .contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas:hover{
     transition: ease-in 0.5s;
     box-shadow: 0 0 14px black;
-
 }
+
+.contenedorImagenesChiquitas .contenedorDeH2{
+    display: flex;
+    justify-content: center;
+    border: 0.2em solid grey;
+    border-radius: 0.9em;
+    box-shadow: 0 0 8px black;
+    background-color: black;
+    padding: 1.4em;
+}
+
+
