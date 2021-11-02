@@ -12,12 +12,23 @@ body{
 
 .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2em;
     font-size: 18px;
     background-color: #000000;
     border-top: 0.2em solid rgb(255, 255, 255);
     border-bottom: 0.3em solid rgb(255, 255, 255);
+}
+
+.marcaImg{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.marcaImg img{
+    width: 180px;
+    height: 150px;
 }
 
 .menu{
@@ -30,16 +41,14 @@ body{
     list-style: none;
     padding: 0.6em;
     border-bottom: 0.1em solid white;
-    border-top: 0.1em solid white;
     border-radius: 0.5em;
-    box-shadow: 0 0 4px white;
 }
 
 .menu li:hover{
     border-bottom: 0.1em solid white;
-    border-top: 0.1em solid white;
     background-color: rgb(65, 65, 65);
     transition: ease-in 0.5s;
+    box-shadow: 0 0 8px white;
 }
 
 
@@ -281,4 +290,27 @@ input[name="slider-select-element"] {
     padding: 1.4em;
 }
 
+footer{
+    background-color: #000000;
+}
 
+footer .contenedorFooter{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    border-top: 0.2em solid grey;
+}
+
+footer .contenedorFooter .divisores{
+    width: calc(50%-1em);
+}
+
+footer img{
+    width: 180px;
+    height: 150px;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+}
