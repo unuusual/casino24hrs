@@ -47,7 +47,7 @@ body{
 .menu li:hover{
     border-bottom: 0.1em solid white;
     background-color: rgb(65, 65, 65);
-    transition: ease-in 0.5s;
+    transition: ease-in 300ms;
     box-shadow: 0 0 8px white;
 }
 
@@ -241,8 +241,7 @@ input[name="slider-select-element"] {
 }
 
 .contenedorImagenesChiquitas{
-    margin-top: 4em;
-    padding: 4em;
+    padding: 3em;
 }
 
 
