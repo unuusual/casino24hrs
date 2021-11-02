@@ -41,9 +41,10 @@ body{
     justify-content: center;
     padding: 2em;
     font-size: 18px;
-    background-color: #000000;
-    border-top: 0.2em solid rgb(255, 255, 255);
+    background-color: #070707;
+    border-top: 0.1em solid rgb(255, 255, 255);
     border-bottom: 0.3em solid rgb(255, 255, 255);
+    
 }
 
 .marcaImg{
@@ -361,6 +362,57 @@ input[name="slider-select-element"] {
     border: 2px solid black;
 }
 
+.carousel {
+    position: relative;
+    margin-top: 2em;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+    margin-top: 2em;
+  }
+
+  .carousel img{
+      width: 100%;
+  }
+  
+  .carousel__item {
+    background: rgb(187, 187, 187);
+    padding: 1em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+    display: none;
+  }
+  
+  .carousel__item--selected {
+    display: block;
+  }
+  
+  .carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+
 footer{
     background-color: #000000;
     border-top: 0.2em solid grey;
@@ -390,6 +442,7 @@ footer .divisoresLegales{
     font-size: 0.8em;
     width: calc(33% - 10px);
     padding: 0.7em;
+    margin-top: 1em;
 }
 
 footer .menuFooter ul li{
