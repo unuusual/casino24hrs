@@ -93,7 +93,7 @@ body{
     top: 0;
     left: 0;
 
-    background: linear-gradient(0deg, rgb(128, 127, 127), rgb(97, 97, 97));
+    background: linear-gradient(0deg, rgb(189, 187, 187), rgb(10, 10, 10));
     opacity: 0.3;
     z-index: -1;
 }
@@ -101,7 +101,8 @@ body{
 .imagenCasino img{
     width: 100%;
     height: 35em;
-    opacity: 0.80;
+    opacity: 0.95;
+    border: 2px solid black;
 
 }
 
@@ -421,7 +422,79 @@ input[name="slider-select-element"] {
   .carousel__button--selected {
     background: rgba(255, 255, 255, 0.5);
   }
+
+
+.contenedorDelParrafoQuienesSomos .contenedorP{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 2em;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+    margin-top: 2em;
+    border-radius: 0.8em;
+}
+
+.contenedorQuienesSomosImagenes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.imagenesQuienesSomos img{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    width: 270px;
+    height: 330px;
+    border: 3px solid black;
+}
+
+.contenedorDelParrafoQuienesSomos .contenedorP p{
+    border: 0.2em solid grey;
+    padding: 3em;
+    background-color: black;
+    border-radius: 0.8em;
+    box-shadow: 0 0 8px black;
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 50%;
+}
+
+.contenedorMiniDescripcion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedorMiniDescripcion .miniDescripcion{
+    background-color: rgb(20, 20, 20);
+    margin-bottom: 2em;
+}
+
+.contenedorMiniDescripcion p{
+    color: white;
+    border: 2px solid grey;
+    padding: 2.5em;
+}
   
+.imagenCasino{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2em;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+    margin-top: 2em;
+    border: 5px solid black;
+}
+
+.imagenCasino img:hover{
+    opacity: 0.5;
+    transition: ease-in 0.5s;
+}
 
 footer{
     background-color: #000000;
