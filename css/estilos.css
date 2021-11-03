@@ -85,9 +85,24 @@ body{
     margin-top: 0.8em;
 }
 
+.imagenCasino:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(0deg, rgb(128, 127, 127), rgb(97, 97, 97));
+    opacity: 0.3;
+    z-index: -1;
+}
+
 .imagenCasino img{
     width: 100%;
     height: 35em;
+    opacity: 0.80;
+
 }
 
 .contenedor{
@@ -473,5 +488,23 @@ footer .copyright{
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+}
+
+footer .contengoProveedores{
+    display: flex;
+    justify-content: center;
+}
+
+footer .proveedoresOficialesParrafo{
+    text-align: center;
+    padding: 0.5em;
+}
+
+footer .proveedores img{
+    height: 28px;
+    width: 28px;
+    border: 1px solid white;
+    padding: 0.12em;
+    border-radius: 50%;
 }
 

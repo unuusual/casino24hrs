@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>LiveSlots_Logo_mini_color</title>
+    <defs>
+        <polygon id="path-1" points="0 32 75.059 32 75.059 0 0 0"></polygon>
+    </defs>
+    <g id="LiveSlots_Logo_mini_color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9" transform="translate(2.000000, 24.000000)">
+            <path d="M71.2163,0 L3.8423,0 C1.7203,0 0.0003,1.719 0.0003,3.84 L0.0003,28.16 C0.0003,30.281 1.7203,32 3.8423,32 L71.2163,32 C73.3383,32 75.0583,30.281 75.0583,28.16 L75.0583,3.84 C75.0583,1.719 73.3383,0 71.2163,0" id="Fill-1" fill="#F4282D"></path>
+            <polygon id="Fill-3" fill="#FFFFFF" points="10.8496 22.7061 18.8496 22.7061 18.8496 26.6741 6.7146 26.6741 6.7146 5.6331 10.8496 5.6331"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-6"></g>
+            <polygon id="Fill-5" fill="#FFFFFF" mask="url(#mask-2)" points="23.285 26.674 27.42 26.674 27.42 5.633 23.285 5.633"></polygon>
+            <polygon id="Fill-7" fill="#FFFFFF" mask="url(#mask-2)" points="30.1182 5.6328 35.2842 5.6328 41.1722 18.2778 47.0262 5.6328 52.2262 5.6328 41.1722 28.4378"></polygon>
+            <polygon id="Fill-8" fill="#FFFFFF" mask="url(#mask-2)" points="59.0342 22.7061 67.8732 22.7061 67.8732 26.6741 54.8992 26.6741 54.8992 5.6331 67.7232 5.6331 67.7232 9.6011 59.0342 9.6011 59.0342 14.0801 66.9742 14.0801 66.9742 17.9871 59.0342 17.9871"></polygon>
+        </g>
+    </g>
+</svg>
