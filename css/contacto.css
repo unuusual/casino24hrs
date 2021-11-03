@@ -1,0 +1,22 @@
+body{
+    background: #3a0ca3;
+}
+
+header{
+    display: flex;
+    background: #7209b7;
+    
+    justify-content: center;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+header h1{
+    color: #e1b2ef;
+    text-shadow: 0px 0px 5px black;
+}
+
+header h1:hover{
+    text-shadow: 0px 0px 5px #e1b2ef;
+}
