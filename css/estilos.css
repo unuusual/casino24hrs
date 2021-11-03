@@ -438,8 +438,7 @@ input[name="slider-select-element"] {
 
 .contenedorQuienesSomosImagenes{
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 .imagenesQuienesSomos img{
@@ -465,18 +464,21 @@ input[name="slider-select-element"] {
 
 .contenedorMiniDescripcion{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .contenedorMiniDescripcion .miniDescripcion{
-    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
     margin-bottom: 2em;
 }
 
 .contenedorMiniDescripcion p{
-    color: white;
-    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    color: black;
     padding: 2.5em;
+    width: 100%;
 }
   
 .imagenCasinoQuienesSomos{
@@ -501,6 +503,28 @@ input[name="slider-select-element"] {
     transition: ease-in 0.5s;
 }
 
+.contenedorNombres{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorNombres h2{
+    color: black;
+    font-size: 1.2em;
+}
+
+.carousel .carousel__item h2{
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+.carrouselCasino .carousel .carousel__item img{
+    height: 20em;
+}
+
+
 footer{
     background-color: #000000;
     border-top: 0.5em solid grey;
@@ -508,7 +532,7 @@ footer{
 
 footer .contenedorFooter{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 2em;
 
 }
