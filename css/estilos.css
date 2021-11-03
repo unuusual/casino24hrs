@@ -479,7 +479,7 @@ input[name="slider-select-element"] {
     padding: 2.5em;
 }
   
-.imagenCasino{
+.imagenCasinoQuienesSomos{
     display: flex;
     justify-content: center;
     position: relative;
@@ -488,10 +488,15 @@ input[name="slider-select-element"] {
     overflow: hidden;
     width: 80%;
     margin-top: 2em;
+    height: 35em;
     border: 5px solid black;
 }
 
-.imagenCasino img:hover{
+.imagenCasinoQuienesSomos img{
+    width: 100%;
+}
+
+.imagenCasinoQuienesSomos img:hover{
     opacity: 0.5;
     transition: ease-in 0.5s;
 }
