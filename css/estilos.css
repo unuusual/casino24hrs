@@ -554,11 +554,14 @@ input[name="slider-select-element"] {
     position: relative;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
     overflow: hidden;
     color: black;
     margin-top: 3em;
     margin-bottom: 3em;
+    width: calc(100% - 20px);
+    padding: 0.6em;
 }
 
 .contengoFotosCaballitos a{
