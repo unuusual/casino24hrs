@@ -122,6 +122,11 @@ a.desplegable:hover{
     margin-bottom: 0.4em;
 }
 
+.imagenSeisDiv img{
+    width: 450px;
+    height: 450px;
+}
+
 .primerasTres{
     display: flex;
     flex-direction: row;
@@ -554,7 +559,11 @@ input[name="slider-select-element"] {
     color: black;
     margin-top: 3em;
     margin-bottom: 3em;
-    background-color: #000;
+}
+
+.contengoFotosCaballitos a{
+   background-color: #000;
+
 }
 
 .contengoFotosCaballitos h2{
@@ -571,7 +580,6 @@ input[name="slider-select-element"] {
     width: 100%;
     transition-duration: 0.5s;
     transition-delay: 0.7s;
-    
 }
 
 .contengoFotosCaballitos img:hover{
@@ -592,6 +600,10 @@ input[name="slider-select-element"] {
 .contengoFotosCaballitos:hover #headline{
     transform: scale(1);
     opacity: 1;
+}
+
+.contenedorP .contengoFotosCaballitos{
+    width: calc(100% - 20px);
 }
 
 
