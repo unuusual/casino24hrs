@@ -43,7 +43,6 @@ body{
     font-size: 18px;
     background-color: #070707;
     border-top: 0.01em solid white;
-    
 }
 
 .marcaImg{
@@ -73,7 +72,6 @@ body{
 .menu li:hover{
     background-color: rgb(65, 65, 65);
     transition: ease-in 100ms;
-    box-shadow: 0 0 2px white;
 }
 
 
