@@ -104,7 +104,7 @@ a.desplegable:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(/imagenes/fondinho.jpg);
+    background-image: url(/imagenescomprimidas/fondinho-min.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -501,7 +501,7 @@ input[name="slider-select-element"] {
 
 
 .contenedorDelParrafoQuienesSomos{
-    background-image: url(/imagenes/fondinho.jpg);
+    background-image: url(/imagenescomprimidas/fondinho-min.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -615,8 +615,13 @@ input[name="slider-select-element"] {
 
   
 
-
 .dosIguales img:hover{
+    opacity: 0.5;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+
+.dosIguales1 img:hover{
     opacity: 0.5;
     transition: all 400ms ease-out;
     will-change: transform;
@@ -643,6 +648,8 @@ input[name="slider-select-element"] {
     border: 2px solid white;
 
 }
+
+
 
 .dosIguales h2{
     font-size: 1.8em;
@@ -727,7 +734,7 @@ input[name="slider-select-element"] {
 #cajaGrande {
     display: flex;
     padding: 60px;
-    background-image: url(/imagenes/fondinho.jpg);
+    background-image: url(/imagenescomprimidas/fondinho-min.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -738,9 +745,6 @@ input[name="slider-select-element"] {
     text-align:center;
     margin-top: 1em;
 }
-
-
-
 
 
 #primeraCaja .contactoTexto{
