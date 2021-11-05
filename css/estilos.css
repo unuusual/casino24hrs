@@ -31,7 +31,7 @@
 
 body{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    background-color: white;
+    background-color: black;
     color: rgb(255, 255, 255);
 }
 
@@ -136,7 +136,7 @@ a.desplegable:hover{
 
 .contengoTodasLasImagenes .primerasTres img{
     background-color: #000;
-    border: 0.2em solid black;
+    border: 0.2em solid white;
     width: calc(100% - 30px);
 }
 
@@ -197,14 +197,16 @@ a.desplegable:hover{
     display: flex;
     justify-content: center;
     background-color: black;
-    margin-bottom: 0.7em;
     margin: 0 auto;
     overflow: hidden;
     width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .contenedor h2{
     padding: 3em;
+    color: white;
 }
 
 .contenedorGrande{
@@ -556,6 +558,9 @@ input[name="slider-select-element"] {
     margin-top: 3em;
     margin-bottom: 3em;
     width: calc(100% - 15px);
+    background-color: white;
+    border-top: 1em solid white;
+    border-bottom: 1em solid white;
 }
 
 .contengoFotosCaballitos a{
@@ -639,6 +644,7 @@ input[name="slider-select-element"] {
     margin-top: 2em;
     margin: 0 auto;
     background-color: #000;
+    border: 2px solid white;
 
 }
 
@@ -654,7 +660,6 @@ input[name="slider-select-element"] {
     display: flex;
     justify-content: center;
     border: 2px solid black;
-    border-bottom: 2px solid white;
 }
 
 .imagenCasinoQuienesSomos:hover img{
