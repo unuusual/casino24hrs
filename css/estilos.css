@@ -43,6 +43,7 @@ body{
     font-size: 18px;
     background-color: #070707;
     border-top: 0.01em solid white;
+    
 }
 
 .marcaImg{
@@ -60,11 +61,13 @@ body{
     display: flex;
     width: 50%;
     justify-content: space-around;
+    
 }  
 
 .menu li{
     list-style: none;
     padding: 0.6em;
+    transition-duration: 0.5s;
 }
 
 .menu li:hover{
@@ -83,6 +86,11 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 0.8em;
+}
+
+.imagenCasino h2{
+    position: absolute;
+    text-align: center;
 }
 
 .miniBanner{
@@ -112,9 +120,8 @@ body{
 
 .imagenCasino img{
     width: 100%;
-    height: 35em;
+    height: 45em;
     opacity: 0.95;
-    border: 2px solid black;
 }
 
 .contenedor{
@@ -150,6 +157,8 @@ body{
     overflow: hidden;
     text-align: left;
     width: 80%;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 
 .contenedorGrande p:hover{
@@ -319,12 +328,16 @@ input[name="slider-select-element"] {
 .contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas img{
     width: 50px;
     height: 52px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 
 .contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas p{
     border: 0.01em solid white;
     border-radius: 0.8em;
     padding: 0.15em;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 
 .contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas p:hover{
@@ -339,6 +352,7 @@ input[name="slider-select-element"] {
 .contenedorImagenesChiquitas .contengoTodasLasImagenesChiquitas:hover{
     transition: ease-in 0.5s;
     box-shadow: 0 0 14px black;
+    
 }
 
 .contenedorImagenesChiquitas .contenedorDeH2{
@@ -405,6 +419,7 @@ input[name="slider-select-element"] {
     font-size: 2em;
     color: #ffffff;
     display: none;
+    
   }
   
   .carousel__item--selected {
@@ -445,6 +460,7 @@ input[name="slider-select-element"] {
     width: 80%;
     margin-top: 2em;
     border-radius: 0.8em;
+    
 }
 
 .contenedorQuienesSomosImagenes{
@@ -471,6 +487,7 @@ input[name="slider-select-element"] {
     overflow: hidden;
     text-align: left;
     width: 50%;
+    
 }
 
 .contenedorMiniDescripcion{
@@ -506,12 +523,15 @@ input[name="slider-select-element"] {
 }
 
 .imagenCasinoQuienesSomos img{
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
     width: 100%;
 }
 
 .imagenCasinoQuienesSomos img:hover{
     opacity: 0.5;
-    transition: ease-in 0.5s;
+    transition: all 400ms ease-out;
+    will-change: transform;
 }
 
 .contenedorNombres{
@@ -630,6 +650,8 @@ input[name="slider-select-element"] {
     margin-bottom: 50px;
     margin-top: 10px;
     cursor:pointer;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 
 }
 
@@ -655,6 +677,8 @@ input[name="slider-select-element"] {
     margin-top: 2em;
     border-radius: 2em;
     padding: 1em;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 
 .h2Formulario h2:hover{
@@ -686,6 +710,16 @@ input[name="slider-select-element"] {
     background-color: black;
     border: 0.4em solid gray;
     padding: 50px;
+}
+
+#segundaCaja #pBorder img{
+    transition-duration: 1000ms;
+    transition-property: all;
+
+}
+
+#segundaCaja #pBorder img:hover{
+    transform: rotate(180deg);
 }
 
 
