@@ -116,7 +116,7 @@ a.desplegable:hover{
 
 .contengoTodasLasImagenes .primerasTres .imagenSeisDiv{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
@@ -130,21 +130,16 @@ a.desplegable:hover{
 .primerasTres{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
 .contengoTodasLasImagenes .primerasTres img{
     background-color: #000;
     border: 0.2em solid black;
-    transition-duration: 0.5s;
-    width: calc(100% - 20px);
+    width: calc(100% - 30px);
 }
 
-.contengoTodasLasImagenes .primerasTres img:hover{
-    background-color: black;
-    transition: ease-in 0.3s;
-    opacity: 0.8;
-}
 
 @media screen and (min-width:47em){
     ul{
@@ -565,6 +560,7 @@ input[name="slider-select-element"] {
 
 .contengoFotosCaballitos a{
    display: flex; 
+   justify-content: space-between;
    background-color: #000;
    width: calc(100% - 15px);
 
@@ -582,6 +578,7 @@ input[name="slider-select-element"] {
 
 .contengoFotosCaballitos img{
     width: 100%;
+    
     transition-duration: 0.5s;
     transition-delay: 0.7s;
 }
@@ -642,6 +639,7 @@ input[name="slider-select-element"] {
     margin-top: 2em;
     margin: 0 auto;
     background-color: #000;
+
 }
 
 .dosIguales h2{
