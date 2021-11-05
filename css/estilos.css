@@ -104,7 +104,7 @@ a.desplegable:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url('https://cdn.pixabay.com/photo/2020/04/15/11/20/telework-5046230_1280.jpg');
+    background-image: url(/imagenes/fondinho.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -503,7 +503,7 @@ input[name="slider-select-element"] {
 
 
 .contenedorDelParrafoQuienesSomos{
-    background-image: url('https://cdn.pixabay.com/photo/2020/04/15/11/20/telework-5046230_1280.jpg');
+    background-image: url(/imagenes/fondinho.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -726,7 +726,7 @@ input[name="slider-select-element"] {
 #cajaGrande {
     display: flex;
     padding: 60px;
-    background-image: url('https://cdn.pixabay.com/photo/2020/04/15/11/20/telework-5046230_1280.jpg');
+    background-image: url(/imagenes/fondinho.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -754,7 +754,7 @@ input[name="slider-select-element"] {
 
 #primeraCaja h2{
     font-size: 19px;
-    color: black;
+    color: white;
     margin-top: 1em;
 }
 
