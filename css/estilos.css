@@ -60,18 +60,19 @@ body{
     display: flex;
     width: 50%;
     justify-content: space-around;
-    
 }  
 
 .menu li{
     list-style: none;
     padding: 0.6em;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .menu li:hover{
     background-color: rgb(65, 65, 65);
     transition: ease-in 100ms;
+    cursor: pointer;
 }
 
 
