@@ -31,7 +31,7 @@
 
 body{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    background-color: #dddddd;
+    background-color: white;
     color: rgb(255, 255, 255);
 }
 
@@ -126,27 +126,23 @@ body{
 .contenedor{
     display: flex;
     justify-content: center;
-    border: 0.3em solid grey;
     background-color: black;
     margin-bottom: 0.7em;
-    height: 20%;
     margin: 0 auto;
     overflow: hidden;
-    width: 50%;
-    margin-top: 6em;
-    border-radius: 2em;
-    padding: 1em;
+    width: 100%;
 }
 
 .contenedor h2{
-    padding: 1em;
+    padding: 3em;
 }
 
 .contenedorGrande{
     padding: 3.5em;
+    display: flex;
+    justify-content: center;
 }
 .contenedorGrande p{
-    border: 0.2em solid grey;
     padding: 3em;
     background-color: black;
     border-radius: 0.8em;
@@ -154,17 +150,9 @@ body{
     height: 20%;
     margin: 0 auto;
     overflow: hidden;
-    text-align: left;
     width: 80%;
     transition-duration: 0.5s;
     transition-delay: 0.2s;
-}
-
-.contenedorGrande p:hover{
-    background-color: white;
-    border: 0.2em solid black;
-    color: black;
-    transition: ease-in 0.6s;
 }
 
 input[name="slider-select-element"] {
@@ -303,11 +291,7 @@ input[name="slider-select-element"] {
     }
 }
 
-.contengoTodoCarrousel #slider-container{
-    padding: 1em;
-    background-color: black;
-    margin-top: 0.6em;
-}
+
 
 .contenedorImagenesChiquitas{
     padding: 3em;
@@ -398,11 +382,12 @@ input[name="slider-select-element"] {
 }
 
 .carousel {
+    background-color: black;
     position: relative;
     margin-top: 2em;
     margin: 0 auto;
     overflow: hidden;
-    width: 80%;
+    width: 100%;
     margin-top: 2em;
   }
 
@@ -411,12 +396,10 @@ input[name="slider-select-element"] {
   }
   
   .carousel__item {
-    background: rgb(187, 187, 187);
-    padding: 1em;
+    background: black;
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
     font-size: 2em;
-    color: #ffffff;
     display: none;
     
   }
@@ -451,15 +434,28 @@ input[name="slider-select-element"] {
 
 .contenedorDelParrafoQuienesSomos .contenedorP{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
-    margin-top: 2em;
+
     margin: 0 auto;
     overflow: hidden;
-    width: 80%;
-    margin-top: 2em;
-    border-radius: 0.8em;
+}
+
+.contenedorDelParrafoQuienesSomos .contenedorP img{
+    padding: 0.2em;
+    width: 100%;
+    height: 20em;
+    transition-duration: 0.2s;
+    transition-duration: 0.5s;
     
+
+}
+
+.contenedorDelParrafoQuienesSomos .contenedorP img:hover{
+    opacity: 0.5;
+    transition: all 400ms ease-out;
+    will-change: transform;
+
 }
 
 .contenedorQuienesSomosImagenes{
@@ -476,7 +472,6 @@ input[name="slider-select-element"] {
 }
 
 .contenedorDelParrafoQuienesSomos .contenedorP p{
-    border: 0.2em solid grey;
     padding: 3em;
     background-color: black;
     border-radius: 0.8em;
@@ -515,10 +510,8 @@ input[name="slider-select-element"] {
     margin-top: 2em;
     margin: 0 auto;
     overflow: hidden;
-    width: 80%;
-    margin-top: 2em;
+    width: 100%;
     height: 35em;
-    border: 5px solid black;
 }
 
 .imagenCasinoQuienesSomos img{
@@ -683,7 +676,6 @@ input[name="slider-select-element"] {
 .h2Formulario h2:hover{
     transition: ease-in 0.5s;
     background-color: rgb(246, 246, 246);
-    border-bottom: 0.3em solid grey;
     border-top: 0.3em solid black;
 }
 
@@ -739,6 +731,178 @@ input[name="slider-select-element"] {
     display: flex;
     padding: 60px;
 }
+
+
+
+
+
+#container-slider
+{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+#slider {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+}
+#slider li {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    z-index: -1;
+    opacity: 0;
+}
+#container-slider .arrowPrev, #container-slider .arrowNext{
+    font-size: 30pt;
+    color: rgba(204, 204, 204, 0.65);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    z-index: 2; 
+}
+#container-slider .arrowNext {
+    left: initial;
+    right: 50px !important;
+}
+.content_slider{
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+}
+.content_slider div{
+    text-align: center;
+}
+.content_slider h2{
+    font-family: 'arial';
+    font-size: 30pt;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.content_slider p {
+    font-size: 15pt;
+    font-family: 'arial';
+    color: #FFF;
+    margin-bottom: 20px;
+}
+#slider li .content_slider{
+    background: rgba(0, 0, 0, 0.50);
+}
+.content_slider{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnSlider{
+    color: #FFF;
+    font-size: 15pt;
+    font-family: 'arial';
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    border: 1px solid #CCC;
+    background: rgba(13, 13, 13, 0.55);
+    border-radius: 31px;
+    text-decoration: none;
+    transition: .5s all;
+}
+.btnSlider:hover{
+    background: #111;
+    border: 1px solid #111;
+}
+.listslider {
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    bottom: 5%;
+    list-style: none;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+.listslider li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.listslider li a {
+    background: #CCC;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.item-select-slid {
+    background: #FFF  !important;
+}
+
+@media screen and (max-width: 460px){
+	.content_slider h2 {
+	    font-size: 15pt !important;
+	}
+	.content_slider p {
+	    font-size: 12pt !important;
+	}
+	#container-slider .arrowPrev, #container-slider .arrowNext{
+		font-size: 20pt;
+	}
+	#container-slider .arrowPrev{
+		left: 15px;
+	}
+	#container-slider .arrowNext{
+		right: 15px !important;
+	}
+	#slider{
+		height: 400px;
+		min-height: 400px;
+	}
+	#slider li .content_slider{
+		padding: 10px 35px;
+	}
+	.btnSlider{
+		padding: 10px 30px;
+    	font-size: 10pt;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
