@@ -27,6 +27,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -35,6 +36,9 @@ body{
     color: rgb(255, 255, 255);
 }
 
+#contactoo{
+    scroll-behavior: smooth;
+} 
 
 .nav{
     display: flex;
@@ -95,6 +99,7 @@ a.desplegable{
 a.desplegable:hover{
     background-color:#000;
 }
+
 
 .contengoTodasLasImagenes{
     display: flex;
