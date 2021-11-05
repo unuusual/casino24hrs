@@ -122,10 +122,6 @@ a.desplegable:hover{
     margin-bottom: 0.4em;
 }
 
-.imagenSeisDiv img{
-    width: 450px;
-    height: 450px;
-}
 
 .primerasTres{
     display: flex;
