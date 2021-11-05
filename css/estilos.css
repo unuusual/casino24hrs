@@ -96,6 +96,34 @@ a.desplegable:hover{
     background-color:#000;
 }
 
+.contengoTodasLasImagenes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/15/11/20/telework-5046230_1280.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.contengoTodasLasImagenes .primerasTres{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.contengoTodasLasImagenes .primerasTres img{
+    background-color: #000;
+    border: 0.3em solid black;
+    transition-duration: 0.5s;
+}
+
+.contengoTodasLasImagenes .primerasTres img:hover{
+    background-color: black;
+    transition: ease-in 0.3s;
+    opacity: 0.8;
+}
+
 @media screen and (min-width:47em){
     ul{
         display: flex;
