@@ -108,6 +108,7 @@ a.desplegable:hover{
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 
@@ -116,7 +117,7 @@ a.desplegable:hover{
 .contengoTodasLasImagenes .primerasTres .imagenSeisDiv{
     display: flex;
     justify-content: center;
-    width: calc(100% - 10px);
+    width: 100%;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
 }
@@ -129,9 +130,9 @@ a.desplegable:hover{
 
 .contengoTodasLasImagenes .primerasTres img{
     background-color: #000;
-    border: 0.3em solid black;
+    border: 0.2em solid black;
     transition-duration: 0.5s;
-    z-index: 5;
+    width: calc(100% - 20px);
 }
 
 .contengoTodasLasImagenes .primerasTres img:hover{
@@ -584,12 +585,12 @@ input[name="slider-select-element"] {
     position: absolute;
     transition: all .3s;
 
-    transform: scale(1);
+    transform: scale(0.5);
     opacity: 0;
 }
 
 .contengoFotosCaballitos:hover #headline{
-    transform: scale(1.5);
+    transform: scale(1);
     opacity: 1;
 }
 
@@ -652,7 +653,7 @@ input[name="slider-select-element"] {
     position: absolute;
     transition: all .3s;
 
-    transform: scale(1.5);
+    transform: scale(0.5);
     opacity: 0;
 }
 
