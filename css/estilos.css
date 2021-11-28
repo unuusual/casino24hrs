@@ -133,7 +133,6 @@ a.desplegable:hover{
 
 .contengoTodasLasImagenes .primerasTres img{
     background-color: #000;
-    border: 0.2em solid white;
     width: calc(100% - 30px);
     height: auto;
 }
@@ -954,7 +953,6 @@ input[name="slider-select-element"] {
 
 .contengoTodasLasImagenes .primerasTres img{
     background-color: #000;
-    border: 0.2em solid white;
     width: calc(100% - 30px);
 }
 
@@ -1344,7 +1342,13 @@ footer .proveedores img{
 }
 .contenedorDeLasImagenesComprimidas{
     display: flex;
+    flex-direction: column;
     padding:0em;
+}
+
+.contenedorDeLasImagenesComprimidas .contengoTodasLasImagenes{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -1385,7 +1389,12 @@ footer .proveedores img{
     text-decoration: underline;
 }
 
-
+.primerasTres{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3em;
+}
 
 
 #primeraCaja h2{
