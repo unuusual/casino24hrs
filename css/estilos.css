@@ -1344,7 +1344,7 @@ footer .proveedores img{
 }
 .contenedorDeLasImagenesComprimidas{
     display: flex;
-    padding: 7em;
+    padding:0em;
 }
 
 
