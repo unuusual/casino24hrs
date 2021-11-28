@@ -28,7 +28,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url(/imagenescomprimidas/fondinho-min.jpg);
 }
 
 body{
@@ -1345,8 +1344,7 @@ footer .proveedores img{
 }
 .contenedorDeLasImagenesComprimidas{
     display: flex;
-    background-image: url(/imagenescomprimidas/fondinho-min.jpg);
-    padding: 0em;
+    padding: 7em;
 }
 
 
