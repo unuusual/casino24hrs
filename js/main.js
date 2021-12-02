@@ -60,6 +60,18 @@
     }
   });
 
+  $(".btnSlider1").click(function(e){
+    validar(e);
+    e.preventDefault();
+    
+  });
+
+  $(".nombre").keyup(function(e){
+    validar(e);
+    e.preventDefault();
+    
+  });
+
   $(window).resize(function(){
     if($(this).width()>768){
       $(".menu").show();
@@ -68,6 +80,36 @@
     }
   });
 });
+
+function validar(e){
+  
+  $("#mensaje").empty();
+  let validad = false;
+  let nombre = $(".nombre").val();
+  let email = $(".email").val();
+  let expresionEmail = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,4}$/;
+
+  if(nombre == ""){
+    $("#mensaje").append("<p>El campo nombre no puede estar vacio.</p>")
+    $("#mensaje").addClass("rojoColor")
+  }
+
+  if(email == ""){
+    $("#mensaje").append("<p>El campo email no puede estar vacio.</p>")
+    $("#mensaje").addClass("rojoColor")
+  }
+
+  if(!expresionEmail.test(email)){
+    $("#mensaje").append("<p>El campo email debe seguir un formato valido.</p>")
+    $("#mensaje").addClass("rojoColor")
+  }else{
+    $("form").submit();
+    alert("¡Enviado correctamente!")
+    $("input[type='text']").val("");
+  }
+
+
+}
 
 
 

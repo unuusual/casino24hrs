@@ -36,7 +36,6 @@ main{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 600em;
 }
 
 body{
@@ -56,6 +55,14 @@ body{
     font-size: 18px;
     background-color: #070707;
     border-top: 0.01em solid white;
+}
+
+.rojoBack{
+    background-color: crimson;
+}
+
+.rojoColor{
+    color: crimson;
 }
 
 .marcaImg{
@@ -1054,7 +1061,28 @@ input[name="slider-select-element"] {
     border-radius: 31px;
     text-decoration: none;
     transition: .5s all;
+    cursor: pointer;
 }
+
+.btnSlider1{
+    color: #FFF;
+    font-size: 0.8em;
+    font-family: 'arial';
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    border: 1px solid #CCC;
+    background: rgba(13, 13, 13, 0.55);
+    border-radius: 31px;
+    text-decoration: none;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.btnSlider1:hover{
+    background: #111;
+    border: 1px solid #111;
+}
+
 .btnSlider:hover{
     background: #111;
     border: 1px solid #111;
@@ -1119,6 +1147,7 @@ input[name="slider-select-element"] {
 	.btnSlider{
 		padding: 10px 30px;
     	font-size: 10pt;
+        cursor: pointer;
 	}
 
 }
@@ -1333,6 +1362,7 @@ footer .proveedores img{
     border-radius: 31px;
     text-decoration: none;
     transition: .5s all;
+    cursor: pointer;
 }
 
 .imagenCasinoQuienesSomos #headline{
