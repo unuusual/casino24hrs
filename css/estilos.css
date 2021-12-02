@@ -30,6 +30,15 @@
     box-sizing: border-box;
 }
 
+main{
+    background-image: url(../imagenes/fondinho.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600em;
+}
+
 body{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     background-color: black;
