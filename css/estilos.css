@@ -659,7 +659,8 @@ input[name="slider-select-element"] {
     margin-top: 2em;
     margin: 0 auto;
     background-color: #000;
-    border: 2px solid white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 
 }
 
@@ -742,28 +743,46 @@ input[name="slider-select-element"] {
     height: 17em;
 }
 
-
 .dosCajas{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 2em;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    align-content: stretch;
 }
 
-#cajaGrande {
-    display: flex;
+#segundaCaja{
+    text-align: center;
+    margin-top: 1em;
+    width: 100%;
+    padding: 2em;
     justify-content: center;
-    flex-direction: column;
-    background-image: url(/imagenescomprimidas/fondinho-min.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-bottom: 1em;
 }
 
 #primeraCaja{
     text-align:center;
     margin-top: 1em;
+    width: 100%;
+    padding: 3em;
+    max-width: 100%;
 }
+
+
+#cajaGrande {
+    display: flex;
+    flex-direction: row;
+    background-image: url(/imagenescomprimidas/fondinho-min.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+
 
 
 #primeraCaja .contactoTexto{
@@ -883,12 +902,7 @@ input[name="slider-select-element"] {
     font-size: 1em;
 }
 
-#segundaCaja{
-    text-align: center;
-    margin-top: 1em;
 
-
-}
 
 #segundaCaja .datosDeContactoTexto{
     margin-top: 15px;
@@ -1406,13 +1420,22 @@ footer .proveedores img{
     opacity: 1;
 }
 
+
+
 #cajaGrande {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-image: url(/imagenescomprimidas/fondinho-min.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+.dosCajas{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
 }
 
 #primeraCaja{
@@ -1420,6 +1443,10 @@ footer .proveedores img{
     margin-top: 1em;
 }
 
+#segundaCaja{
+    text-align: center;
+    margin-top: 1em;
+}
 
 #primeraCaja .contactoTexto{
     margin-top: 25px;
@@ -1434,6 +1461,8 @@ footer .proveedores img{
     justify-content: space-evenly;
     padding: 3em;
 }
+
+
 
 
 #primeraCaja h2{
