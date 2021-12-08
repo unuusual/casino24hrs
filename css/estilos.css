@@ -1197,21 +1197,21 @@ footer .proveedores img{
     #galeria{
         margin-left: 2em;
         margin-right: 2em;
-        margin-top: 2em;
-        padding: 2em;
+        margin-top: 3em;
        
     }
     
     #galeria img{
         width: 100%;
         max-width: 100%;
-        border: 3em solid transparent;
-        border-radius: 5.5em;
+        border: 5em solid transparent;
+        border-radius: 6em;
     }
     
     #galeria h2{
         max-width: 100%;
         text-align: center;
+        margin-bottom: -2em;
     }
     
 }
