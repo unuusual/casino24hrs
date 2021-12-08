@@ -60,6 +60,16 @@
     }
   });
 
+  $('.galeria').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    dots: true,
+  });
+      
+
+
   $(".btnSlider1").click(function(e){
     validar(e);
     e.preventDefault();
