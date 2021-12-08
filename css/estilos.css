@@ -284,27 +284,6 @@ input[name="slider-select-element"] {
     width: 33.333%;
 }
 
-#galeria{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 2em;
-    padding: 2em;
-   
-}
-
-#galeria img{
-    width: 100%;
-    max-width: 100%;
-    border-radius: 7em;
-    border: 5em solid transparent;
-}
-
-#galeria h2{
-    max-width: 100%;
-    text-align: center;
-}
 
 
 .contenedorImagenesChiquitas{
@@ -1213,6 +1192,55 @@ footer .proveedores img{
     }
 
 }
+
+@media screen and (min-width:56em){
+    #galeria{
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 2em;
+        padding: 2em;
+       
+    }
+    
+    #galeria img{
+        width: 100%;
+        max-width: 100%;
+        border: 3em solid transparent;
+        border-radius: 5.5em;
+    }
+    
+    #galeria h2{
+        max-width: 100%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:1025px){
+    #galeria{
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 2em;
+        padding: 2em;
+       
+    }
+    
+    #galeria img{
+        width: 100%;
+        max-width: 100%;
+        border: 0.2em solid transparent;
+        border-radius: 0em;
+    }
+    
+    #galeria h2{
+        max-width: 100%;
+        text-align: center;
+    }
+    
+}
+
+
+
 
 @media screen and (max-width:47em){
     .nav{
