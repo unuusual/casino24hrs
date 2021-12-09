@@ -124,6 +124,12 @@
     
   });
 
+  $(".email").keyup(function(e){
+    validar(e);
+    e.preventDefault();
+    
+  });
+
 
   $(window).resize(function(){
     if($(this).width()>768){
@@ -160,11 +166,15 @@ function validar(e){
     error = true;
   }
 
-  if(error == false){
-    $("form").submit();
-    alert("¡Enviado correctamente!")
-    $("input[type='text']").val("");
-  }
+  
+
+  $(".btnSlider1").click(function(){
+    if(error == false){
+      $("form").submit();
+      alert("¡Enviado correctamente!")
+      $("input[type='text']").val("");
+    }
+  });
 
 
 }
