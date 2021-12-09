@@ -165,14 +165,13 @@ function validar(e){
     $("#mensaje").addClass("rojoColor")
     error = true;
   }
-
-  
+ 
 
   $(".btnSlider1").click(function(){
     if(error == false){
       $("form").submit();
-      alert("¡Enviado correctamente!")
       $("input[type='text']").val("");
+      alert("¡Su formulario fue enviado con exito!");
     }
   });
 
