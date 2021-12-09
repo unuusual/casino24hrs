@@ -155,7 +155,7 @@ a.desplegable:hover{
 
 .contenedorDeLasImagenesComprimidas{
     display: flex;
-    padding: 7em;
+    padding: 4em;
 }
 
 
@@ -218,6 +218,7 @@ a.desplegable:hover{
 .contenedor h2{
     padding: 3em;
     color: white;
+    text-align: center;
 }
 
 .contenedorGrande{
@@ -1210,17 +1211,7 @@ footer .proveedores img{
         border: 4em solid transparent;
         border-radius: 6em;
     }
-    
-    #galeria h2{
-        max-width: 100%;
-        text-align: center;
-        background-color: #171717;
-        opacity: 0.5;
-        color: white;
-        border: 2px solid white;
-        padding: 0.5em;
-        margin-top: 0.8em;
-    }
+
 
     
 }
@@ -1230,7 +1221,6 @@ footer .proveedores img{
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 2em;
-        padding: 5em;
        
     }
     
@@ -1240,18 +1230,7 @@ footer .proveedores img{
         border: 0.2em solid transparent;
         border-radius: 1.5em;
     }
-    
-    #galeria h2{
-        max-width: 100%;
-        text-align: center;
-        background-color: #171717;
-        opacity: 0.5;
-        color: white;
-        border: 2px solid white;
-        padding: 0.5em;
-        margin-top: 0.8em;
-    }
-    
+
 }
 
 
@@ -1444,10 +1423,6 @@ footer .proveedores img{
         border-radius: 1.5em;
     }
     
-    #galeria h2{
-        max-width: 100%;
-        text-align: center;
-    }
 
 
 
@@ -1541,13 +1516,6 @@ footer .proveedores img{
     border-radius: 1.5em;
     border: 0.1em solid transparent;
 
-}
-
-#galeria h2{
-    max-width: 100%;
-    width: 100%;
-    text-align: center;
-    font-size: 1em;
 }
 
 
