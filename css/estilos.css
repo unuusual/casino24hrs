@@ -802,7 +802,7 @@ input[name="slider-select-element"] {
     height: 20%;
     margin: 0 auto;
     overflow: hidden;
-    width: 90%;
+    width: 60%;
     margin-top: 2em;
     border-radius: 10px;
     padding: 2em;
@@ -828,7 +828,7 @@ input[name="slider-select-element"] {
 #segundaCaja #pBorder{
     background-color: black;
     border: 0.4em solid gray;
-    padding: 50px;
+    padding: 80px;
 }
 
 #segundaCaja #pBorder img{
@@ -1475,6 +1475,22 @@ footer .proveedores img{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 3em;
+}
+
+.h2Formulario h2{
+    color: black;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    margin-bottom: 0.7em;
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 65%;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 2em;
 }
 
 
