@@ -95,8 +95,8 @@
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           arrows: false,
           autoplay: true,
           autoplaySpeed: 1000,
@@ -124,6 +124,7 @@
     
   });
 
+
   $(window).resize(function(){
     if($(this).width()>768){
       $(".menu").show();
@@ -136,7 +137,7 @@
 function validar(e){
   
   $("#mensaje").empty();
-  let validad = false;
+  let error = false;
   let nombre = $(".nombre").val();
   let email = $(".email").val();
   let expresionEmail = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,4}$/;
@@ -144,17 +145,22 @@ function validar(e){
   if(nombre == ""){
     $("#mensaje").append("<p>El campo nombre no puede estar vacio.</p>")
     $("#mensaje").addClass("rojoColor")
+    error = true;
   }
 
   if(email == ""){
     $("#mensaje").append("<p>El campo email no puede estar vacio.</p>")
     $("#mensaje").addClass("rojoColor")
+    error = true;
   }
 
   if(!expresionEmail.test(email)){
-    $("#mensaje").append("<p>El campo email debe seguir un formato valido.</p>")
+    $("#mensaje").append("<p>El campo email debe seguir un formato valido. ej: hola@gmail.com</p>")
     $("#mensaje").addClass("rojoColor")
-  }else{
+    error = true;
+  }
+
+  if(error == false){
     $("form").submit();
     alert("¡Enviado correctamente!")
     $("input[type='text']").val("");
