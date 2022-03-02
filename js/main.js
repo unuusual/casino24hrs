@@ -52,12 +52,18 @@
   
  
  $(document).ready(function(){
+   //etiq A class despl
   $("a.desplegable").click(function(){
+
     if($('.menu').is(":visible")){
+
       $('.menu').slideUp();
+
     } else if($('.menu').is(":hidden")){
+
       $('.menu').slideDown();
     }
+
   });
 
   $('.galeria').slick({
@@ -102,9 +108,6 @@
           autoplaySpeed: 1000,
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
           

@@ -90,6 +90,7 @@ a.desplegable {
   top: 0;
   right: 0;
   cursor: pointer;
+  z-index: 1;
 }
 a.desplegable:hover {
   background-color: #000;
@@ -1100,7 +1101,10 @@ footer .proveedores img {
 }
 
 @media screen and (max-width: 47em) {
+
+
   .nav {
+    
     display: flex;
     justify-content: center;
     padding: 2em;
@@ -1122,6 +1126,7 @@ footer .proveedores img {
     display: flex;
     justify-content: center;
     background-color: black;
+    
   }
 
   .imagenCasinoQuienesSomos {
